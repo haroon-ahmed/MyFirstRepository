@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AnimalSounds</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- ADD ID'S -->
+    <string name="adUnitId">ca-app-pub-5936180767690905/2947095277</string>
+    <string name="interId">ca-app-pub-5936180767690905/5900561676</string>
+</resources>
