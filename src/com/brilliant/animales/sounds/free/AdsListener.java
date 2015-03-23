@@ -22,20 +22,15 @@ public class AdsListener extends AdListener {
 
     @Override
     public void onAdFailedToLoad(int errorCode) {
-        String errorReason = "";
         switch(errorCode) {
             case AdRequest.ERROR_CODE_INTERNAL_ERROR:
-                errorReason = "Internal error";
-                break;
+			break;
             case AdRequest.ERROR_CODE_INVALID_REQUEST:
-                errorReason = "Invalid request";
-                break;
+			break;
             case AdRequest.ERROR_CODE_NETWORK_ERROR:
-                errorReason = "Network Error";
-                break;
+			break;
             case AdRequest.ERROR_CODE_NO_FILL:
-                errorReason = "No fill";
-                break;
+			break;
         }
        
     }
